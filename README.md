@@ -1,10 +1,10 @@
-## webpack-master-template
+## Technologies used
 
 - normalize.css;
 - base project structure;
 - .visually-hidden;
-- .container and media
-- font mixin
-- handlebars
+- .container and media;
+- pixel perfect;
+- svg images;
 
 https://serhey123.github.io/zen-webpack/
