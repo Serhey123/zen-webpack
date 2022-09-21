@@ -1,0 +1,33 @@
+.navigation{
+    padding: 17px 0;
+    border-bottom: 1px solid #CBD6E2;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list-link{
+        color: #000000;
+    }
+    &__app-btn{
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 48px;
+        height: 48px;
+        width: 131px;
+        cursor: pointer;
+    }
+}
+
+.icons{
+    width: 307px;
+    height: 48px;
+}
+.links{
+    width: 406px;
+    height: 48px;
+}

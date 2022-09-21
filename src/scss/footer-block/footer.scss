@@ -1,0 +1,39 @@
+.footer{
+
+    &::before{
+        display: block;
+        content:"";
+        height: 1px;
+        width: 68%;
+        margin: 0 auto;
+        background-color: #CBD6E2;
+        margin-bottom: 69px;
+    }
+    
+    &-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 192px;
+    }
+    &__title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 33px;
+    }
+
+    &__list{
+        &-item{
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+        }
+        &-link{
+            font-size: 14px;
+            line-height: 19px;
+            color: #000000;
+        }
+    }
+}

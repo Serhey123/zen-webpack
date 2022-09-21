@@ -1,0 +1,40 @@
+
+
+.app-store{
+    background-image: url(../images/app-store.svg);
+    height: 47px;
+    width: 166px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.google-play{
+    background-image: url(../images/google-play.svg);
+    height: 47px;
+    width: 166px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.header__app-btn{
+    display: block;
+}
+.header__app-btn:not(:last-child){
+    margin-bottom: 21px;
+}
+.apple-pay{
+    background-image: url(../images/apple-pay.svg);
+    height: 58px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.google-pay{
+    background-image: url(../images/google-pay.svg);
+    height: 58px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}

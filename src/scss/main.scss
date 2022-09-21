@@ -2,3 +2,15 @@
 @import "./helpers/variables";
 @import "./helpers/mixins";
 @import "./common";
+
+// HEADER 
+@import "./header-block/nav";
+@import "./header-block/header";
+
+// MAIN
+@import "./main-block/sections";
+@import "./main-block/buttons";
+
+// FOOTER
+@import "./footer-block/footer";
+@import "./footer-block/license";

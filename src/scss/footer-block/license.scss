@@ -1,0 +1,19 @@
+.license{
+    padding-top: 55px;
+    padding-bottom: 71px;
+    &__link{
+        display: block;
+        margin-bottom: 19px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content{
+        font-size: 12px;
+        line-height: 16px;
+        color: #AAAAAA;
+        width: 836px;
+    }
+}

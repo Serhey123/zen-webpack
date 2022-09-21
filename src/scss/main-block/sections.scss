@@ -1,0 +1,113 @@
+.warranty{
+    padding-top: 48.5px;
+    padding-bottom: 65.5px;
+    &__description{
+        width: 448px;
+    }
+    &__content{
+        padding-bottom: 99px;
+        margin-right: 31px;
+    }
+}
+.care{
+    padding-top: 65.5px;
+    padding-bottom: 104px;
+    &__content{
+        padding-bottom: 3px;
+    }
+    &__description-br{
+        width: 394px;
+    }
+}
+.cashback{
+    padding-top: 101px;
+    padding-bottom: 30px;
+    &__title{
+        margin-bottom: 0px;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    &__description{
+        width: 584px;
+        margin-bottom: 46px;
+    }
+    &__btn{
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 48px;
+        height: 48px;
+        width: 237px;
+        cursor: pointer;
+        margin-bottom: 68px;
+        font-size: 18px;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &-item{
+        width: 294px;
+        &:nth-child(-n+4){
+            margin-bottom: 64px;
+        }
+        }
+        &-img{
+            margin: 0 auto;
+        }
+    }
+}
+.card{
+    padding-top: 47px;
+    padding-bottom: 65px;
+    &__title{
+        width: 435px;
+    }
+    &__description{
+        margin-bottom: 27px;
+    }
+    &__content{
+        padding-bottom: 53px;
+    }
+    &__btn:not(:last-child){
+        margin-right: 16px;
+    }
+}
+.no-fees{
+    padding-top: 65px;
+    padding-bottom: 58px;
+    &__description-br{
+        width: 400px;
+    }
+    &__content{
+        padding-bottom: 4px;
+        margin-right: 4px;
+    }
+}
+.app{
+    padding-top: 58px;
+    padding-bottom: 74.5px;
+    &__content{
+        padding-bottom: 31px;
+    }
+    &__title{
+        margin-bottom: 21px;
+    }
+}
+.account{
+    padding-top: 74.5px;
+    padding-bottom: 125px;
+    &__content{
+        padding-bottom: 15px;
+        margin-right: 4px;
+    }
+    &__description:last-of-type{
+        margin-bottom: 31px;
+    }
+    &__btn:not(:last-child){
+        margin-right: 18px;
+    }
+}
