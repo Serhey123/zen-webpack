@@ -6,5 +6,7 @@
 - pixel perfect;
 - svg images;
 - flex
+- webpack 
+- sass
 
 https://serhey123.github.io/zen-webpack/
