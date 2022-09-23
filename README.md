@@ -8,5 +8,6 @@
 - flex
 - webpack 
 - sass
+- adaptive
 
 https://serhey123.github.io/zen-webpack/
