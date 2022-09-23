@@ -71,24 +71,41 @@ html {
        url('../fonts/nunito-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 .section{
-
-  &__container{
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-  }
   &__title{
-      font-size: 36px;
-      line-height: 43px;
-      width: 374px;
+      font-size: 28px;
       margin-bottom: 23px;
       font-weight: normal;
   }
   &__description{
+      font-size: 14px;
+      margin-bottom: 12.5px;
+  }
+}
+@media (min-width:768px) and (max-width: 1199px){
+  .section__img{
+    width: 300px;
+  }
+}
+@media (min-width: 768px){
+  .section{
+    &__container{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+}
+@media (min-width: 1200px){
+  .section{
+    &__title{
+      font-size: 36px;
+      line-height: 43px;
+      width: 374px;
+    }
+    &__description{
       font-size: 18px;
       line-height: 26px;
       width: 475px;
-      margin-bottom: 12.5px;
+    }
   }
-
 }

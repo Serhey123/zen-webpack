@@ -1,16 +1,6 @@
 .navigation{
     padding: 17px 0;
     border-bottom: 1px solid #CBD6E2;
-    &__container{
-        display: flex;
-        justify-content: space-between;
-    }
-    &__list{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 48px;
-    }
     &__list-link{
         color: #000000;
     }
@@ -23,12 +13,33 @@
         cursor: pointer;
     }
 }
-
-.icons{
-    width: 307px;
-    height: 48px;
+@media (max-width: 767px){
+    .navigation{
+        &__app-btn{
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }
-.links{
-    width: 406px;
-    height: 48px;
+@media (min-width: 768px){
+    .navigation{
+        &__list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 48px;
+        }
+        &__container{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .icons{
+        width: 307px;
+        height: 48px;
+    }
+    .links{
+        width: 406px;
+        height: 48px;
+    }
 }

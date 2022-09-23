@@ -1,5 +1,4 @@
 .footer{
-
     &::before{
         display: block;
         content:"";
@@ -8,32 +7,54 @@
         margin: 0 auto;
         background-color: #CBD6E2;
         margin-bottom: 69px;
-    }
-    
+    } 
     &-wrapper{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__item{
-        width: 192px;
+        width: 155px;
     }
     &__title{
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        margin-bottom: 33px;
     }
-
     &__list{
-        &-item{
-            &:not(:last-child){
-                margin-bottom: 15px;
-            }
-        }
         &-link{
             font-size: 14px;
             line-height: 19px;
             color: #000000;
+        }
+    }
+}
+@media (max-width: 767px){
+    .footer{
+        &__item:nth-child(-n + 4){
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (min-width: 768px){
+    .footer{
+        &__item{
+            width: 192px;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width:1199px){
+    .footer__item:nth-child(-n + 3){
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .footer{
+        &__title{
+            margin-bottom: 33px;
+        }
+        &__list-item:not(:last-child){
+            margin-bottom: 15px;
         }
     }
 }

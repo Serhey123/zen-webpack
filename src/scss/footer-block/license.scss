@@ -5,15 +5,21 @@
         display: block;
         margin-bottom: 19px;
     }
-    &__wrapper{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
     &__content{
         font-size: 12px;
         line-height: 16px;
         color: #AAAAAA;
-        width: 836px;
+    }
+}
+@media (min-width: 768px){
+    .license{
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__content{
+            width: 836px;
+        }
     }
 }

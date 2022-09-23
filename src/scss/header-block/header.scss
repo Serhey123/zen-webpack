@@ -1,9 +1,7 @@
 .header{
-
     &__subtitle{
         display: block;
         padding-left: 41px;
-        
         color: #000000;
         margin-bottom: 33px;
         background-image: url(../images/subtitle-icon.svg);
@@ -14,19 +12,28 @@
         padding-bottom: 20px;
     }
     &__title{
-        font-size: 42px;
-        line-height: 50px;
-        width: 369px;
+        font-size: 29px;
         margin-bottom: 23px;
     }
     &__description{
         font-size: 18px;
         line-height: 26px;
-        width: 400px;
         margin-bottom: 12.5px;
     }
 }
 .shopping{
     padding-top: 34px;
     padding-bottom: 48.5px;
+}
+@media (min-width: 1200px){
+    .header{
+        &__title{
+            font-size: 42px;
+            line-height: 50px;
+            width: 369px;
+        }
+        &__description{
+            width: 400px;
+        }
+    }
 }
